@@ -1,7 +1,7 @@
 all:
 	cd chess-openings && $(MAKE) all
 	cd chess-rules && $(MAKE) all
-	cp */*.pdf .
+	cp */build/*.pdf .
 
 clean:
 	cd chess-openings && $(MAKE) clean
