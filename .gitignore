@@ -1,5 +1,7 @@
 # LaTeX artifacts
 *.aux
 *.log
-*.pdf
 *.out
+
+/chess-openings/build/
+chess-rules/build/
