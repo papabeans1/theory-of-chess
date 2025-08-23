@@ -1,6 +1,6 @@
 # Chess Theory Notes
 
-Version: v1.1
+Version: v1.2
 
 Chess study materials: openings, rules, and strategic concepts.
 
@@ -13,8 +13,10 @@ Maintained fork of a deleted repository. **Original PDFs are provided** in the [
 
 ## Changelog
 
-- 2025-08-22: Added London System to Closed games.
-- 2025-08-22: Openings PDF now shows dots after move numbers (e.g., "1. e4").
+- 2025-08-23: Added Flank openings section (incl. English Opening); updated Makefile and LaTeX. [v1.2]
+- 2025-08-23: Fixed castling notation (0-0 → O-O) in Grünfeld Defence, Queen's Gambit Accepted, and Sicilian Defence. [v1.2]
+- 2025-08-22: Added London System to Closed games. [v1.1]
+- 2025-08-22: Openings PDF now shows dots after move numbers (e.g., "1. e4"). [v1.1]
 
 ### Future Improvements
 
