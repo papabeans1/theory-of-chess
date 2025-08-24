@@ -1,0 +1,56 @@
+\documentclass[a4paper,8pt]{extarticle}
+\usepackage[left=0.5cm, right=0.5cm, top=0.5cm, bottom=0.5cm, twoside, headsep=0.15in, includehead, includefoot]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{Alegreya}
+\usepackage[tracking]{microtype}
+\usepackage[compact]{titlesec}
+\usepackage{xskak}
+\xskakset{style=UF}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{xcolor}
+
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+\definecolor{beansbg}{HTML}{FFFCF0}
+\definecolor{beanstext}{HTML}{100F0F}
+\definecolor{beansaccent}{HTML}{6F6E69}
+\definecolor{beanslight}{HTML}{E6E4D9}
+
+\pagecolor{beansbg}
+\color{beanstext}
+
+\renewcommand{\thesection}{\arabic{section}.}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=beansaccent,
+    urlcolor=beansaccent,
+    citecolor=beansaccent
+}
+
+\rhead{\color{beanstext}Page \thepage}
+\lhead{\color{beanstext}Common chess openings (revision 1.2, last edited: 2025-08-24) - chessbeans edition}
+\rfoot{\color{beanstext}Source: \url{https://github.com/papabeans1/theory-of-chess}}
+
+\newcommand{\openingname}[1]{\emph{\color{beanstext}#1}}
+\styleA
+\begin{document}
+\author{papabeans1}
+\title{Chess openings - chessbeans edition}
+\section{Open games}
+\input{src/open}
+\section{Closed games}
+\input{src/closed}
+\section{Semi-open games}
+\input{src/semi}
+\section{Indian defences}
+\input{src/indian}
+\section{Flank openings}
+\input{src/flank}
+\end{document}
