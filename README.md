@@ -1,6 +1,6 @@
 # Chess Theory Notes
 
-Version: v1.2.1
+Version: v1.2.2
 
 Chess study materials: openings, rules, and strategic concepts.
 
@@ -13,6 +13,7 @@ Maintained fork of a deleted repository. **Original PDFs are provided** in the [
 
 ## Changelog
 
+- 2025-08-25: Added Bird's Opening to Flank openings. [v1.2.2]
 - 2025-08-24: Added chessbeans edition with an eye friendly flexoki inspired color scheme; improved section numbering with dots. [v1.2.1]
 - 2025-08-23: Added Flank openings section (incl. English Opening); updated Makefile and LaTeX. [v1.2]
 - 2025-08-23: Fixed castling notation (0-0 → O-O) in Grünfeld Defence, Queen's Gambit Accepted, and Sicilian Defence. [v1.2]
